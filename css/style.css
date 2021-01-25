@@ -6,13 +6,16 @@
 }
 
 header{
-  background-color: lightblue;
+  /* background-color: lightblue; */
 }
 hr{
   width: 100vw;
 }
 
 /* Barra Header */
+header .contenitore-barra-header{
+  background-color: #F4F9FD;
+}
 header .barra{
   width: 80%;
   margin: auto;
@@ -67,10 +70,40 @@ header .barra .barra-destra ul .bottone-generale{
 header .barra .barra-destra ul .bottone-header{
   padding: 10px;
 }
+header .barra .barra-destra ul .fa-search{
+  color: lightblue;
+}
 
 /* Nav Header */
-/* nav{
+nav{
   width: 80%;
   margin: auto;
   height: 75px;
-} */
+}
+nav::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+
+nav img{
+  float: left;
+  margin-top: 25px;
+}
+nav ul{
+  /* background-color: lightyellow; */
+  float: right;
+}
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  line-height: 75px;
+  padding: 0px 15px;
+}
+nav ul .logo{
+  margin-right: 0;
+}
+nav ul li a{
+  text-decoration: none;
+  color: black;
+}
