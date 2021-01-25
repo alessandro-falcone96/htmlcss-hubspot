@@ -4,3 +4,73 @@
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
 }
+
+header{
+  background-color: lightblue;
+}
+hr{
+  width: 100vw;
+}
+
+/* Barra Header */
+header .barra{
+  width: 80%;
+  margin: auto;
+  height: 75px;
+}
+header .barra::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+
+header .barra .barra-sinistra ul{
+  float: left;
+}
+header .barra .barra-destra ul{
+  float: right;
+}
+
+header .barra .barra-sinistra ul li,
+header .barra .barra-destra ul li{
+  display: inline-block;
+  list-style: none;
+  text-decoration: none;
+  margin: 0px 15px;
+  line-height: 75px;
+}
+
+header .barra .barra-sinistra ul li .fa-angle-down{
+  border-right: 1px solid black;
+  padding-right: 20px;
+}
+
+header .barra .barra-sinistra ul li a,
+header .barra .barra-destra ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+header .barra .barra-destra ul .bottone-login{
+  color: #ff7a59;                     /* Orange*/
+  background-color: white;
+  border: 1px solid #ff7a59;
+  border-radius: 5px;
+  padding: 10px;
+}
+header .barra .barra-destra ul .bottone-generale{
+  color: white;
+  background-color: #ff7a59;
+  border: 1px solid #ff7a59;
+  border-radius: 5px;
+}
+header .barra .barra-destra ul .bottone-header{
+  padding: 10px;
+}
+
+/* Nav Header */
+/* nav{
+  width: 80%;
+  margin: auto;
+  height: 75px;
+} */
