@@ -127,7 +127,7 @@ main .contenitore-sezione-1{
 main .sezione-1{
   width: 40%;
   margin-left: 10%;
-  color: #33475B;
+  color: #33475B;         /*Colore Titoli*/
 }
 
 main .sezione-1 h2{
@@ -155,6 +155,18 @@ main .contenitore-sezione-2{
 main .sottosezione-1{
   width: 50%;
   margin: auto;
-  background-color: blue;
-  height: 500px;
+  background-color: lightblue;
+  /* height: 500px; */
+  text-align: center;
+  color: #33475B;
+}
+main .sottosezione-1 img{
+  height: 200px;
+  object-fit: contain;
+  margin-top: 30px;
+}
+
+main .sottosezione-1 h3{
+  font-size: 30px;
+  margin-bottom: 15px;
 }
