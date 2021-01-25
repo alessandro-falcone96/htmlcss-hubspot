@@ -12,6 +12,14 @@ hr{
   width: 100vw;
 }
 
+/* Classi Generali */
+.bottone-generale{
+  color: white;
+  background-color: #ff7a59;
+  border: 1px solid #ff7a59;
+  border-radius: 5px;
+}
+
 /* Barra Header */
 header .contenitore-barra-header{
   background-color: #F4F9FD;
@@ -61,14 +69,10 @@ header .barra .barra-destra ul .bottone-login{
   border-radius: 5px;
   padding: 10px;
 }
-header .barra .barra-destra ul .bottone-generale{
-  color: white;
-  background-color: #ff7a59;
-  border: 1px solid #ff7a59;
-  border-radius: 5px;
-}
+
 header .barra .barra-destra ul .bottone-header{
   padding: 10px;
+  color: white;
 }
 header .barra .barra-destra ul .fa-search{
   color: lightblue;
@@ -106,4 +110,39 @@ nav ul .logo{
 nav ul li a{
   text-decoration: none;
   color: black;
+}
+
+
+
+/* Main */
+main .contenitore-sezione-1{
+  background-color: #FFF1EE;
+  height: 1000px;
+  background-image: url("../img/sfondo-sezione-1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* Sezione-1 */
+main .sezione-1{
+  width: 40%;
+  margin-left: 10%;
+  color: #33475B;
+}
+
+main .sezione-1 h2{
+  font-size: 45px;
+  padding-top: 45px;
+  padding-bottom: 15px;
+}
+main .sezione-1 p{
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+main .sezione-1 a{
+  text-decoration: none;
+  padding: 15px 25px;
+}
+main .sezione-1 .paragrafo-piccolo{
+  font-size: 10px;
 }
