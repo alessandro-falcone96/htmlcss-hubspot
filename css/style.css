@@ -117,7 +117,7 @@ nav ul li a{
 /* Main */
 main .contenitore-sezione-1{
   background-color: #FFF1EE;
-  height: 1000px;
+  height: 700px;
   background-image: url("../img/sfondo-sezione-1.png");
   background-size: contain;
   background-repeat: no-repeat;
@@ -145,4 +145,16 @@ main .sezione-1 a{
 }
 main .sezione-1 .paragrafo-piccolo{
   font-size: 10px;
+}
+
+/* Sezione 2 */
+main .contenitore-sezione-2{
+  background-color: #F5F8FA;
+  height: 1000px;
+}
+main .sottosezione-1{
+  width: 50%;
+  margin: auto;
+  background-color: blue;
+  height: 500px;
 }
