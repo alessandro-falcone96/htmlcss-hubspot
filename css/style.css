@@ -296,6 +296,7 @@ main .sottosezione-3 .box ul{
   margin-left: 25px;
 }
 
+
 /* Sezione 3 */
 .contenitore-sezione-3{
   height: 700px;
@@ -309,6 +310,7 @@ main .sottosezione-3 .box ul{
 .testo-sezione-3 h3{
   font-size: 35px;
   padding: 35px 0px;
+  color: white;
 }
 .testo-sezione-3 p{
   font-size: 20px;
@@ -328,6 +330,7 @@ main .sottosezione-3 .box ul{
 }
 .tabella-sezione-3 .tabella h3{
   font-size: 40px;
+  color: white;
 }
 .tabella-sezione-3 .tabella span{
   font-weight: lighter;
@@ -432,6 +435,7 @@ footer .contenitore-footer{
 footer .footer-barra{
   width: 25%;
   float: left;
+  margin-bottom: 50px;
 }
 
 footer .footer-barra li a.primo-lista{
