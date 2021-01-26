@@ -418,3 +418,75 @@ main .sottosezione-3 .box ul{
   margin-left: 50%;
   object-fit: contain;
 }
+
+/* Footer */
+footer{
+  background-color: #2D3F4F;
+  /* background-color: orange; */
+  margin-top: 30px;
+}
+footer .contenitore-footer{
+  width: 90%;
+  margin: auto;
+}
+footer .footer-barra{
+  width: 25%;
+  float: left;
+}
+
+footer .footer-barra li a.primo-lista{
+  color: white;
+  font-weight: bold;
+}
+footer .footer-barra li{
+  padding: 5px 0px;
+}
+footer .footer-barra li a{
+  text-decoration: none;
+  color: lightgrey;
+}
+footer .footer-barra li a.bottone-support{
+  display: inline-block;
+  color: black;
+  background-color: lightgrey;
+  border-radius: 5px;
+  padding: 10px;
+}
+footer .footer-barra li.social{
+  display: inline-block;
+}
+footer .footer-barra li.social a{
+  padding: 0px 15px;
+}
+
+
+footer .footer-seconda-parte ul{
+  text-align: center;
+}
+footer .footer-seconda-parte ul li{
+  display: inline-block;
+  color: lightgrey;
+  margin: 0px 10px;
+}
+footer .footer-seconda-parte hr{
+  margin: 20px 0px;
+}
+
+footer .footer-basso-sinistra{
+  float: left;
+}
+footer .footer-basso-destra{
+  float: right;
+  margin-bottom: 100px;
+}
+
+
+footer .footer-basso-sinistra span{
+  display: block;
+  color: white;
+}
+footer .footer-basso-destra a{
+  text-decoration: none;
+  color: lightgrey;
+  margin: 0px 15px;
+}
