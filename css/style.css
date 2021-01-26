@@ -17,10 +17,13 @@ hr{
   width: 80%;
   margin: auto;
 }
-.clearfix{
+.clearfix::after{
   content: '';
   display: block;
   clear: both;
+}
+.paragrafo-piccolo{
+  font-size: 10px;
 }
 .bottone-generale{
   color: white;
@@ -45,7 +48,7 @@ img.foto{
   height: 150px;
   object-fit: contain;
 }
-h4{
+h4, h3, h2{
   font-size: 25px;
   padding: 15px 0px;
   color: #33475B;
@@ -172,9 +175,7 @@ main .sezione-1 a{
   text-decoration: none;
   padding: 15px 25px;
 }
-main .sezione-1 .paragrafo-piccolo{
-  font-size: 10px;
-}
+
 main .contenitore-verde-acqua{
   background-color: #B0EAE4;
   height: 12%;
@@ -351,4 +352,69 @@ main .sottosezione-3 .box ul{
 .tabella-sezione-3 .contenuto-6,
 .tabella-sezione-3 .contenuto-7{
   border-right: 1px solid white;
+}
+
+/* Sezione 4 */
+.sezione-4{
+  margin-top: 30px;
+}
+.primo-container-sinistra{
+  width: 30%;
+  /* background-color: yellow; */
+  float: left;
+  text-align: center;
+}
+.primo-container-destra{
+  width: 70%;
+  /* background-color: orange; */
+  float: left;
+}
+
+.primo-container-sinistra h2{
+  margin-top: 20px;
+}
+.primo-container-sinistra p{
+  width: 70%;
+  margin: auto;
+  color: #33475B;
+}
+
+.primo-container-destra img{
+  width: calc(25% - 14px);
+  object-fit: contain;
+  vertical-align: middle;
+  padding: 15px 0px;
+  margin: 0px 5px;
+}
+
+.contenitore-basso-sezione-4{
+  width: 90%;
+  margin: auto;
+  margin-top: 30px;
+}
+.secondo-container-sinistra{
+  width: 35%;
+  float: left;
+}
+.secondo-container-destra{
+  width: 65%;
+  float: left;
+}
+
+.secondo-container-sinistra h3{
+  font-size: 35px;
+}
+.secondo-container-sinistra p{
+  color: #33475B;
+  margin: 25px 0px;
+}
+.secondo-container-sinistra a{
+  text-decoration: none;
+  padding: 15px 25px;
+  display: inline-block;
+}
+.secondo-container-destra img{
+  width: 35%;
+  margin-left: 50%;
+  object-fit: contain;
 }
