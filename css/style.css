@@ -124,6 +124,7 @@ main .contenitore-sezione-1{
   background-image: url("../img/sfondo-sezione-1.png");
   background-size: contain;
   background-repeat: no-repeat;
+  background-position: bottom right;
 }
 
 /* Sezione-1 */
@@ -242,4 +243,33 @@ main .sottosezione-2 ul li{
 }
 main .sottosezione-2 .fa-check-circle{
   color: #ff7a59;
+}
+
+/* Sottosezione 3 */
+main .sottosezione-3{
+  width: 80%;
+  margin: auto;
+  margin-top: 30px;
+  height: 1000px;
+  background-color: orange;
+}
+
+main .sottosezione-3 .box-sinistra{
+  width: 30%;
+  height: 300px;
+  float: left;
+  border: 1px solid black;
+}
+main .sottosezione-3 .box-centro{
+  width: 30%;
+  height: 300px;
+  float: left;
+  margin: 0px 5%;
+  border: 1px solid black;
+}
+main .sottosezione-3 .box-destra{
+  width: 30%;
+  height: 300px;
+  float: left;
+  border: 1px solid black;
 }
