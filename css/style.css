@@ -19,6 +19,9 @@ hr{
   border: 1px solid #ff7a59;
   border-radius: 5px;
 }
+.box{
+  box-shadow: 0px 0px 3px black;
+}
 
 /* Barra Header */
 header .contenitore-barra-header{
@@ -152,10 +155,12 @@ main .contenitore-sezione-2{
   background-color: #F5F8FA;
   height: 1000px;
 }
+
+/* Sottosezione 1 */
 main .sottosezione-1{
   width: 50%;
   margin: auto;
-  background-color: lightblue;
+  /* background-color: lightblue; */
   /* height: 500px; */
   text-align: center;
   color: #33475B;
@@ -169,4 +174,63 @@ main .sottosezione-1 img{
 main .sottosezione-1 h3{
   font-size: 30px;
   margin-bottom: 15px;
+}
+
+
+/* Sottosezione 2 */
+main .sottosezione-2{
+  width: 80%;
+  margin: auto;
+  background-color: white;
+  margin-top: 30px;
+  height: 300px;
+}
+/* main .sottosezione-2::after{
+  content: '';
+  display: block;
+  clear: both;
+} */
+main .contenitore-sinistra-sottosezione-2{
+  /* background-color: lightyellow; */
+  width: 30%;
+  text-align: center;
+  display: inline-block;
+}
+main .contenitore-destra-sottosezione-2{
+  /* background-color: orange; */
+  width: 65%;
+  display: inline-block;
+}
+
+main .sottosezione-2 img{
+  height: 150px;
+  object-fit: contain;
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 65px;
+}
+main .sottosezione-2 a{
+  text-decoration: none;
+  padding: 15px 25px;
+}
+
+main .sottosezione-2 h4{
+  font-size: 25px;
+  padding: 15px 0px;
+  color: #33475B;
+}
+main .sottosezione-2 h5{
+  text-transform: uppercase;
+  font-size: 20px;
+  padding: 15px 0px;
+  color: #33475B;
+}
+main .sottosezione-2 ul li{
+  display: inline-block;
+  list-style: none;
+  padding-right: 15px;
+}
+main .sottosezione-2 .fa-check-circle{
+  color: #ff7a59;
 }
