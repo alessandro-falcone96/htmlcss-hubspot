@@ -221,10 +221,19 @@ main .sottosezione-2 h4{
   color: #33475B;
 }
 main .sottosezione-2 h5{
+  /* background-color: yellow; */
+  width: 30%;
   text-transform: uppercase;
   font-size: 20px;
   padding: 15px 0px;
   color: #33475B;
+  display: inline-block;
+}
+main .sottosezione-2 hr{
+  display: inline-block;
+  width: 60%;
+  margin-left: 50px;
+  vertical-align: middle;
 }
 main .sottosezione-2 ul li{
   display: inline-block;
