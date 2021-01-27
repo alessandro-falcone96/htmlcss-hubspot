@@ -289,6 +289,7 @@ main .sottosezione-3 .box p{
   margin: auto;
   padding-top: 15px;
   padding-bottom: 45px;
+  min-height: 212px;
 }
 main .sottosezione-3 .box h5{
   padding: 15px 0px;
