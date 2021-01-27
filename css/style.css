@@ -152,7 +152,7 @@ main .contenitore-sezione-1{
   background-color:#FFF3EF;
   height: 700px;
   background-image: url("../img/sfondo-sezione-1.png");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom right;
   position: relative;
