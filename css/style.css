@@ -8,9 +8,7 @@
 header{
   /* background-color: lightblue; */
 }
-hr{
-  width: 100%;
-}
+
 
 /* Classi Generali */
 .larghezza{
@@ -38,8 +36,9 @@ hr{
   margin-bottom: 20px;
 }
 .box{
-  box-shadow: 0px 0px 3px black;
+  box-shadow: 0px 0px 5px lightgrey;
   background-color: white;
+  border-radius: 3px;
 }
 li{
   list-style: none;
@@ -109,6 +108,10 @@ header .barra .barra-destra ul .bottone-header{
 }
 header .barra .barra-destra ul .fa-search{
   color: lightblue;
+}
+
+hr.spaziatore-header{
+  width: 100%;
 }
 
 /* Nav Header */
