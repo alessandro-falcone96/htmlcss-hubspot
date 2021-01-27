@@ -362,23 +362,23 @@ main .sottosezione-3 .box ul{
   margin-top: 30px;
 }
 .primo-container-sinistra{
-  width: 30%;
+  width: 50%;
   /* background-color: yellow; */
   float: left;
-  text-align: center;
+  text-align: left;
 }
 .primo-container-destra{
-  width: 70%;
+  width: 50%;
   /* background-color: orange; */
   float: left;
 }
 
 .primo-container-sinistra h2{
   margin-top: 20px;
+  font-size: 40px;
 }
 .primo-container-sinistra p{
-  width: 70%;
-  margin: auto;
+  width: 35%;
   color: #33475B;
 }
 
@@ -436,6 +436,7 @@ footer .footer-barra{
   width: 25%;
   float: left;
   margin-bottom: 50px;
+  margin-top: 20px;
 }
 
 footer .footer-barra li a.primo-lista{
@@ -443,7 +444,7 @@ footer .footer-barra li a.primo-lista{
   font-weight: bold;
 }
 footer .footer-barra li{
-  padding: 5px 0px;
+  padding: 10px 0px;
 }
 footer .footer-barra li a{
   text-decoration: none;
